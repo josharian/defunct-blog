@@ -3,7 +3,6 @@ layout: post
 title: "Yet another ElliptiGO Review"
 date: 2012-03-11 11:40
 comments: false
-publish: false
 categories: [ElliptiGO, Review]
 ---
 
