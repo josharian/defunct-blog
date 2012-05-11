@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Engineering | Sapiary]]></title>
+  <link href="http://josharian.github.com/blog/categories/engineering/atom.xml" rel="self"/>
+  <link href="http://josharian.github.com/"/>
+  <updated>2012-05-10T19:01:33-07:00</updated>
+  <id>http://josharian.github.com/</id>
+  <author>
+    <name><![CDATA[Josh Bleecher Snyder]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[A Modern Bug]]></title>
+    <link href="http://josharian.github.com/blog/2012/05/10/a-modern-bug/"/>
+    <updated>2012-05-10T18:34:00-07:00</updated>
+    <id>http://josharian.github.com/blog/2012/05/10/a-modern-bug</id>
+    <content type="html"><![CDATA[<p>A few weeks ago, my mother-in-law made a terrifying discovery. Someone had been in her new point-of-sale system overnight. Several new screens had been opened since the day before. Fortunately, nothing appeared to have been changed, and no new charges inserted. Still -- pretty worrisome.</p>
+
+<p>Maybe it was an intruder? She reviewed the security camera footage. It was blurry and a bit dark, but the computer was visible across the room. At around 8pm, the monitor suddenly brightened, and you could make out onscreen activity, but there was definitely no one present.</p>
+
+<p>Perhaps it was a remote attack? She confirmed that the firewall was up and running, ran several different virus scans, and looked around for a Windows version of <a href="http://www.obdev.at/products/littlesnitch/index.html">Little Snitch</a>. The network looked pretty secure.</p>
+
+<p>And yet, the next day, she found another slew of windows opened; the security footage was just as mysterious as before. The speculations got wilder. A ghost in the machine? Miniature earthquakes moving the mouse? A poltergeist? A software glitch?</p>
+
+<p>It turned out to be a bug, but not a software bug. It was a teeny, tiny gnat.</p>
+
+<p>Her new POS came with a very sensitive touch screen. Some time after dark, a gnat would fly near enough to the monitor to trigger a touch, waking the system up. The monitor brightened, drawing the gnat (and friends!) into a light-induced frenzy. They beat themselves against the glass, merrily opening windows and tapping buttons. And every culprit was smaller than a pixel in the security camera.</p>
+
+<p>There may be debate about <a href="http://en.wikipedia.org/wiki/Software_bug#Etymology">the origin of the term bug in software engineering</a>, but the proud tradition of converting buggy atoms to buggy bits continues.</p>
+
+<p>And now she turns off the system at night.</p>
+]]></content>
+  </entry>
+  
+</feed>
